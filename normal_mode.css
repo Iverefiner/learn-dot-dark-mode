@@ -2,37 +2,37 @@
 
 /* nav bar */
 #fs-nav > div > div.bg-white.border-bottom.z4 > div > div {
-	background-color: #2a3035;
+	background-color: #fff;
 }
 
 /* nav bar links*/
 #nav-directive-row > a:nth-child(3) {
-	color: #fff;
+	color: #33383c;
 }
 
 #nav-directive-row > a:nth-child(4) {
-	color: #fff;
+	color: #33383c;
 }
 
 #nav-directive-row > a:nth-child(5) {
-	color: #fff;
+	color: #33383c;
 }
 
 #support-nav-dropdown > a > span {
-	color: #fff;
+	color: #33383c;
 }
 
 /* entire page */
 #fs-content > ui-view {
-	background-color: #2a3035;
+	background-color: #fff;
 }
 
 /* title */
 #workshops-header-container > h2 {
-	color: #c9d0d6;
+	color: #33383c;
 }
 
-/* individual workshops */
+/* individual workshops in main page*/
 #fs-content
 	> ui-view
 	> ui-view
@@ -42,11 +42,11 @@
 	> react-component
 	> div
 	> div {
-	background-color: #464c51;
-	color: #fff;
+	background-color: #fff;
+	color: #33383c;
 }
 
-/* individual workshops titles */
+/* individual workshops titles in main page*/
 #fs-content
 	> ui-view
 	> ui-view
@@ -57,29 +57,30 @@
 	> div
 	> div
 	> p.mt2.mb1.px2.medium.m0.black {
-	color: #fff;
+	color: #33383c;
 }
 
 /* inside individual workshops */
-
 #workshop-container {
-	background-color: #2a3035;
+	background-color: #fff;
 }
 
 #fs-action > div {
-	background-color: #2a3035;
+	background-color: #fff;
 }
 
 #fs-action > div > div.action-content.ng-scope > h1 {
-	color: #c9d0d6;
+	color: #43484d;
 }
 
+/* #fs-action > div > div.action-content.ng-scope > action-body > div */
 #fs-action > div > div.action-content.ng-scope > action-body > div {
-	color: #c9d0d6;
+	color: #62656f;
 }
+
 /* lesson link thing at top */
 #fs-action > div > nav > ul > li.active > a {
-	color: #c9d0d6;
+	color: #333333;
 }
 
 /* page section titles */
@@ -93,16 +94,14 @@
 
 /* hint boxes */
 #fs-action > div > div.action-content.ng-scope > action-body > div > hint > div > div {
-	background-color: #2a3035;
+	background-color: #f4f7f9;
 	color: #62656f;
 }
 
 /* highlighted words */
 #fs-action > div > div.action-content.ng-scope > action-body > div > p > span > code {
-	/* background-color: #c9d0d6;
-  color: #2a3035; */
-	color: #fff;
-	background-color: #111;
+	background-color: #eeeeee;
+	color: #62656f;
 }
 
 #fs-action
@@ -113,8 +112,8 @@
 	> p:nth-child(1)
 	> span:nth-child(2)
 	> code {
-	background-color: #c9d0d6;
-	color: #2a3035;
+	background-color: #eeeeee;
+	color: #62656f;
 }
 
 #fs-action
@@ -125,8 +124,8 @@
 	> p:nth-child(1)
 	> span:nth-child(2)
 	> code {
-	color: #fff;
-	background-color: #111;
+	background-color: #eeeeee;
+	color: #62656f;
 }
 
 /* code boxes */
